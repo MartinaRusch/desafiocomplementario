@@ -1,0 +1,19 @@
+
+.accordion-body {
+    color: red;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.uno{
+    @extend .accordion-body;
+    color: black;
+    text-shadow: 1;
+}
+
+.dos{
+    @extend .accordion-body;
+    color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

@@ -1,0 +1,25 @@
+@mixin variantes ($colorFondo , $colorLetra , $sizeFuente ) {
+
+    font-size: $sizeFuente;
+    color: $colorLetra;
+    background-color: $colorFondo;
+}
+
+.eins{
+    @include variantes ( blue , white , 16px );
+}
+
+
+.zwei{
+    @include variantes ( rgb(255, 166, 0) , rgb(126, 117, 117) , 12px );
+}
+
+
+.drei{
+    @include variantes ( rgb(140, 0, 255) , rgba(255, 255, 255, 0.507) , 12px );
+}
+
+
+.vier{
+    @include variantes ( rgb(0, 255, 55) , rgb(5, 5, 5) , 18px );
+}

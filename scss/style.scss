@@ -1,0 +1,79 @@
+@import "variables";
+@import "primerapagina";
+@import "segundapagina";
+@import "tercerapagina";
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav{
+    background-color: aquamarine;
+    min-height: 90px;
+    align-items: center;
+}
+
+.paisaje{
+    width: 100%;
+}
+
+.container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.card{
+    align-items: center;
+}
+
+.btn-primary{
+    background-color:cornflowerblue;
+}
+
+.titulos{
+    color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
+.titulo-nosotros{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.fuente{
+    color: cornflowerblue;
+}
+
+.divflex{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card-group{
+    padding-bottom: 4rem;
+}
+
+.mb-3{
+    width: 50%;
+}
+
+.mainflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.botonesflex{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
